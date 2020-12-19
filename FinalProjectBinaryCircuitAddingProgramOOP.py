@@ -48,6 +48,7 @@ class AddingCircuit:    #class declaration
                 self.num2.append(int(input("Enter fourth digit of your first number (0 or 1)>")))
                 if self.num2[3] != 1 and self.num2[3] != 0:
                     raise ValueError("Invalid value, please enter 0 or 1")
+                break
             except ValueError as excpt:
                 print(excpt)
         
